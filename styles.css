@@ -1,0 +1,106 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#introduction {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introduction #introduction-font {
+  font-family: 'Kalnia', serif;
+  font-size: 4rem;
+}
+
+#about-me {
+  width: 100vw;
+  background-color: darkgray;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 4rem 0;
+}
+
+#about-me-photo {
+  height: 200px;
+  width: 200px;
+}
+
+#about-me-photo img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+#about-me h1 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+#my-skills {
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 4rem 0;
+}
+
+#my-skills .skill-container {
+  width: 50%;
+  padding: 1rem 0;
+}
+
+#my-skills .skill-container img {
+  float: left;
+  height: 200px;
+  width: 300px;
+  margin-right: 1rem;
+}
+
+#my-skills .skill-container h3 {
+  font-weight: bold;
+  color: darkgray;
+}
+
+#my-skills .skill-container p {
+  line-height: 1.5;
+}
+
+#contact-me {
+  width: 100vw;
+  background-color: darkgray;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  padding: 4rem 0;
+}
+
+#contact-me h1 {
+  color: white;
+}
+
+#contact-me h3 {
+  color: white;
+}
+
+#contact-me a {
+  text-decoration: none;
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 1.25rem;
+  color: black
+}
